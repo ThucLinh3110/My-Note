@@ -1,4 +1,4 @@
-package com.examplek49.mynote.activities;
+package com.example.mynote.activities;
 
 import android.os.Bundle;
 import android.text.TextUtils;

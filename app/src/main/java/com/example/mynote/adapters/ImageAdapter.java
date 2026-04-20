@@ -1,4 +1,4 @@
-package com.examplek49.mynote.adapters;
+package com.example.mynote.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
