@@ -1,4 +1,4 @@
-package com.examplek49.mynote;
+package com.example.mynote;
 
 import android.os.Bundle;
 

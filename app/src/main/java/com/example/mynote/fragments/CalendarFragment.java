@@ -1,4 +1,4 @@
-package com.examplek49.mynote.fragments;
+package com.example.mynote.fragments;
 
 import android.os.Bundle;
 import android.text.TextUtils;

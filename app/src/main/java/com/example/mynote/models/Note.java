@@ -1,4 +1,4 @@
-package com.examplek49.mynote.models;
+package com.example.mynote.models;
 
 public class Note {
     private String noteId;

@@ -1,6 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F3F3F3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:background="#4A86F7"
+            android:gravity="center_horizontal"
+            android:paddingTop="26dp">
+
+
+            <LinearLayout
+                android:layout_width="58dp"
+                android:layout_height="38dp"
+                android:background="@drawable/bg_header_icon"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:tint="#FFFFFF" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xác nhận OTP"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:layout_marginTop="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập mã số đã gửi đến"
+                android:textColor="#EEF4FF"
+                android:textSize="12sp"
+                android:layout_marginTop="6dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="example@gmail.com"
+                android:textColor="#EEF4FF"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+
+        <!-- Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="5dp"
+                android:background="@drawable/bg_step_inactive" />
+
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_step_active" />
+
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_step_inactive" />
+        </LinearLayout>
+
+
+        <!-- Nội dung -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="28dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_login_input"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp">
+
+
+                <EditText
+                    android:id="@+id/edtOtp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:hint="Nhập mã OTP"
+                    android:inputType="number"
+                    android:textSize="15sp"
+                    android:textColor="#333333"
+                    android:textColorHint="#A0A0A0" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chưa nhận được mã? "
+                    android:textColor="#444444"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gửi lại (59s)"
+                    android:textColor="#3F7EF8"
+                    android:textStyle="bold"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnConfirmOtp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/bg_login_button"
+                android:backgroundTint="@null"
+                android:text="Xác nhận"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtChangeEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="↶ Đổi email khác?"
+                android:textColor="#3F7EF8"
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
