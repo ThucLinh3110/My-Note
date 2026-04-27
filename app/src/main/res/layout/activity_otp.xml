@@ -5,12 +5,10 @@
     android:fillViewport="true"
     android:background="#F3F3F3">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
 
         <!-- Header -->
         <LinearLayout
@@ -21,13 +19,11 @@
             android:gravity="center_horizontal"
             android:paddingTop="26dp">
 
-
             <LinearLayout
                 android:layout_width="58dp"
                 android:layout_height="38dp"
                 android:background="@drawable/bg_header_icon"
                 android:gravity="center">
-
 
                 <ImageView
                     android:layout_width="18dp"
@@ -35,7 +31,6 @@
                     android:src="@android:drawable/ic_dialog_info"
                     android:tint="#FFFFFF" />
             </LinearLayout>
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -46,7 +41,6 @@
                 android:textSize="21sp"
                 android:layout_marginTop="12dp" />
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,7 +48,6 @@
                 android:textColor="#EEF4FF"
                 android:textSize="12sp"
                 android:layout_marginTop="6dp" />
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -65,7 +58,6 @@
                 android:layout_marginTop="2dp" />
         </LinearLayout>
 
-
         <!-- Step -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,12 +66,10 @@
             android:orientation="horizontal"
             android:layout_marginTop="16dp">
 
-
             <View
                 android:layout_width="12dp"
                 android:layout_height="5dp"
                 android:background="@drawable/bg_step_inactive" />
-
 
             <View
                 android:layout_width="24dp"
@@ -87,14 +77,12 @@
                 android:layout_marginStart="8dp"
                 android:background="@drawable/bg_step_active" />
 
-
             <View
                 android:layout_width="12dp"
                 android:layout_height="5dp"
                 android:layout_marginStart="8dp"
                 android:background="@drawable/bg_step_inactive" />
         </LinearLayout>
-
 
         <!-- Nội dung -->
         <LinearLayout
@@ -105,7 +93,6 @@
             android:paddingEnd="10dp"
             android:paddingTop="28dp">
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -114,7 +101,6 @@
                 android:gravity="center"
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp">
-
 
                 <EditText
                     android:id="@+id/edtOtp"
@@ -129,14 +115,12 @@
                     android:textColorHint="#A0A0A0" />
             </LinearLayout>
 
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp">
-
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -145,8 +129,8 @@
                     android:textColor="#444444"
                     android:textSize="12sp" />
 
-
                 <TextView
+                    android:id="@+id/txtResendOtp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Gửi lại (59s)"
@@ -154,7 +138,6 @@
                     android:textStyle="bold"
                     android:textSize="12sp" />
             </LinearLayout>
-
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnConfirmOtp"
@@ -169,7 +152,6 @@
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
-
             <TextView
                 android:id="@+id/txtChangeEmail"
                 android:layout_width="wrap_content"
@@ -180,10 +162,44 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="18dp" />
 
+            <TextView
+                android:id="@+id/txtOtpDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text=""
+                android:textColor="#D32F2F"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+        </LinearLayout>
 
+        <!-- Footer -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="290dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhớ mật khẩu? "
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtBackToLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập ngay"
+                android:textColor="#3F7EF8"
+                android:textStyle="bold"
+                android:textSize="12sp" />
         </LinearLayout>
 
 
     </LinearLayout>
 </ScrollView>
-
