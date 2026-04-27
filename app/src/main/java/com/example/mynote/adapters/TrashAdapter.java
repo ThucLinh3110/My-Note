@@ -1,0 +1,5 @@
+package com.example.mynote.adapters;
+
+public class TrashAdapter  {
+
+}

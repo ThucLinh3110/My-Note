@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "693132381704",
+    "firebase_url": "https://mynote-5d0a6-default-rtdb.firebaseio.com",
+    "project_id": "mynote-5d0a6",
+    "storage_bucket": "mynote-5d0a6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693132381704:android:6c2b764f3422a3f7f84bbd",
+        "android_client_info": {
+          "package_name": "com.example.mynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693132381704-ipfnqgub2lbkevpi7fmm2b4u5olp5v9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mynote",
+            "certificate_hash": "20bdb02c47f9c9d96c9fb2d911680f7985fb9c45"
+          }
+        },
+        {
+          "client_id": "693132381704-tt6vo05bparlv0e5lpebup9u3sovru06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9AbSpUvdSgLE0sq1GUWCxIOcafLYEIsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693132381704-tt6vo05bparlv0e5lpebup9u3sovru06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693132381704:android:f0834f89646aff66f84bbd",
+        "android_client_info": {
+          "package_name": "com.examplek49.mynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693132381704-2mi4f8rj4hrelu4en80dspcul41ifp7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examplek49.mynote",
+            "certificate_hash": "20bdb02c47f9c9d96c9fb2d911680f7985fb9c45"
+          }
+        },
+        {
+          "client_id": "693132381704-623u77b0h43144boppdhbtu6hrrrltuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examplek49.mynote",
+            "certificate_hash": "254d0f17bddd54d57e9a9e76eba9fb05e74fd6fb"
+          }
+        },
+        {
+          "client_id": "693132381704-tt6vo05bparlv0e5lpebup9u3sovru06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9AbSpUvdSgLE0sq1GUWCxIOcafLYEIsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693132381704-tt6vo05bparlv0e5lpebup9u3sovru06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
