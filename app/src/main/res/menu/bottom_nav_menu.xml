@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_note" android:title="Ghi chú" android:icon="@drawable/ic_note"/>
+    <item android:id="@+id/nav_calendar" android:title="Lịch" android:icon="@drawable/ic_calendar"/>
+    <item android:id="@+id/nav_image" android:title="Ảnh" android:icon="@drawable/ic_image"/>
+    <item android:id="@+id/nav_settings" android:title="Cài đặt" android:icon="@drawable/ic_settings"/>
+</menu>
