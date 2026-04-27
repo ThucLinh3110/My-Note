@@ -5,8 +5,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.examplek49.mynote.MainActivity;
-import com.examplek49.mynote.R;
+import com.example.mynote.MainActivity;
+import com.example.mynote.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SplashActivity extends AppCompatActivity {

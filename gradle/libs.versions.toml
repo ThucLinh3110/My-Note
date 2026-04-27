@@ -1,5 +1,5 @@
 [versions]
-agp = "9.0.1"
+agp = "8.8.2"
 googleServices = "4.4.2"
 junit = "4.13.2"
 junitVersion = "1.3.0"
@@ -9,6 +9,8 @@ material = "1.13.0"
 activity = "1.13.0"
 constraintlayout = "2.2.1"
 firebaseBom = "34.12.0"
+credentials = "1.5.0"
+googleid = "1.1.1"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -22,6 +24,9 @@ firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.r
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
 firebase-database = { group = "com.google.firebase", name = "firebase-database" }
 firebase-storage = { group = "com.google.firebase", name = "firebase-storage" }
+androidx-credentials = { group = "androidx.credentials", name = "credentials", version.ref = "credentials" }
+androidx-credentials-play-services-auth = { group = "androidx.credentials", name = "credentials-play-services-auth", version.ref = "credentials" }
+googleid = { group = "com.google.android.libraries.identity.googleid", name = "googleid", version.ref = "googleid" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
